@@ -43,3 +43,4 @@ s = EndlessStream.create "Hello, world!"
 for num in [1..10]
   console.log Stream.next(s)
 ```
+The subject (fancy word for first argument) of a function for any protocol call should be a struct so that we can look up it's corresponding implementation.
